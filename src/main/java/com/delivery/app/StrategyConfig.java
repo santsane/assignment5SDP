@@ -7,6 +7,7 @@ import com.delivery.strategy.CheapestRouteStrategy;
 import com.delivery.strategy.EcoFriendlyRouteStrategy;
 import com.delivery.strategy.FastestRouteStrategy;
 import com.delivery.strategy.RouteStrategy;
+import com.delivery.strategy.DistanceFirstRouteStrategy
 
 import java.util.List;
 
@@ -42,6 +43,7 @@ public final class StrategyConfig {
                 new CheapestRouteStrategy(),
                 new EcoFriendlyRouteStrategy(),
                 new BalancedRouteStrategy()
+                new DistanceFirstRouteStrategy()
         );
     }
 }
